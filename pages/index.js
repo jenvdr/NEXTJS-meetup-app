@@ -1,4 +1,4 @@
-import MainNavigation from "@component/components/layout/MainNavigation";
+import Layout from "@component/components/layout/Layout";
 import MeetupList from "@component/components/meetups/MeetupList";
 import { Fragment } from "react";
 
@@ -29,8 +29,9 @@ const DUMMY_MEETUPS = [
 const HomePage = () => {
     return (
         <Fragment>
-        <MainNavigation />
-        <MeetupList meetups={DUMMY_MEETUPS}/>
+            <Layout>
+                <MeetupList meetups={DUMMY_MEETUPS}/>
+            </Layout>
         </Fragment>
     );
 };
