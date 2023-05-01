@@ -14,8 +14,6 @@ const NewMeetupPage = () => {
 
         const data = await response.json();
 
-        console.log(`data new-meetup/index.js: ${JSON.stringify(data)}`);
-
         router.push('/');
     };
 
