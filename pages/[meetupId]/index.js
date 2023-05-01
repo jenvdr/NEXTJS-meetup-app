@@ -1,5 +1,4 @@
 import MeetupDetail from "@component/components/meetups/MeetupDetail";
-import { useRouter } from "next/router";
 
 const MeetupDetails = () => {
   return (
@@ -14,7 +13,7 @@ const MeetupDetails = () => {
 
 export async function getStaticPaths() {
      return {
-        fallback: false,
+        fallback: false, // If set to true it will generate a dynamic page for missing id
         paths: [
             { 
                 params: {
@@ -42,7 +41,6 @@ export async function getStaticProps(context) {
                 image:"https://imageio.forbes.com/specials-images/imageserve/636269102e3d4aa9da08fd12/0x0.jpg?format=jpg&width=420",
             }
         },
-        revalidate: 10,
     }
 }
 
