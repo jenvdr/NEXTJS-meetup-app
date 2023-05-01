@@ -33,7 +33,7 @@ export async function getStaticPaths() {
   client.close();
 
   return {
-    fallback: false, // If set to true it will generate a dynamic page for missing id
+    fallback: 'blocking', // If set to true it will generate a dynamic page for missing id
     paths: meetups.map((meetup) => ({
       params: { meetupId: meetup._id.toString() },
     })),
