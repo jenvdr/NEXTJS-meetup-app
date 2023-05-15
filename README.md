@@ -1,7 +1,4 @@
 # NextJS Meetup App
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
-
-View deployed version <a href="https://nextjs-meetup-app-pearl.vercel.app/" target="_blank">HERE</a>
 
 ## The App
 <p float="left">
@@ -9,6 +6,10 @@ View deployed version <a href="https://nextjs-meetup-app-pearl.vercel.app/" targ
 <img width="30%" alt="Add new meetup page" src="https://user-images.githubusercontent.com/107281506/235602177-3b7596fa-6d84-47c4-af04-69dfbaf72e96.png">
 <img width="30%" alt="Single meetup page" src="https://user-images.githubusercontent.com/107281506/235602178-9594a568-a26d-4e48-b999-fb95999b58e8.png">
 </p>
+
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+
+View deployed version <a href="https://nextjs-meetup-app-pearl.vercel.app/" target="_blank">HERE</a>
 
 ## Specs
 
